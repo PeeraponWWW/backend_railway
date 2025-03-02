@@ -9,7 +9,9 @@ dotenv.config();
 
 // Express
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://railwayfrontend-production-aeaa.up.railway.app/:8080'
+}));
 app.use(express.json());
 
 // Postgres
