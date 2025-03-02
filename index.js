@@ -10,7 +10,7 @@ dotenv.config();
 // Express
 const app = express();
 app.use(cors({
-  origin: 'https://railwayfrontend-production-aeaa.up.railway.app:8080'
+  origin: 'https://railwayfrontend-production-1f51.up.railway.app/'
 }));
 app.use(express.json());
 
